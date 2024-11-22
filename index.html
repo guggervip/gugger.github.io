@@ -3,96 +3,170 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Official website for [Your App Name], providing key features, user guides, and support information.">
-  <meta name="keywords" content="[Your App Name], iOS App, Privacy Policy, Support">
-  <meta name="author" content="[Your Company Name]">
-  <title>[Your App Name] - Official Website</title>
-  <link rel="stylesheet" href="styles.css"> <!-- External CSS -->
+  <meta name="description" content="Official homepage for [Your App Name], featuring fitness inspiration, company details, and privacy policies.">
+  <title>[Your App Name] - Official Homepage</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
+    /* Global Styles */
+    * {
       margin: 0;
       padding: 0;
+      box-sizing: border-box;
     }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #f4f4f4;
+    }
+
     header {
-      background-color: #007AFF; /* Apple blue color */
+      background: linear-gradient(90deg, #007AFF, #28a745);
       color: white;
-      padding: 10px 20px;
+      padding: 20px 10px;
       text-align: center;
     }
+    header h1 {
+      font-size: 2.5em;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+
     nav {
       display: flex;
       justify-content: center;
-      background-color: #f4f4f4;
+      background: #eee;
       padding: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
     nav a {
       margin: 0 15px;
-      color: #333;
+      color: #007AFF;
       text-decoration: none;
       font-weight: bold;
+      transition: color 0.3s ease;
     }
+    nav a:hover {
+      color: #28a745;
+    }
+
     section {
       padding: 20px;
-      line-height: 1.6;
+      max-width: 1200px;
+      margin: auto;
     }
+
+    /* Fitness Section */
+    #fitness {
+      text-align: center;
+      margin: 20px 0;
+    }
+    #fitness h2 {
+      margin-bottom: 20px;
+      color: #007AFF;
+    }
+    #fitness img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Contact Section */
+    #contact {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+    #contact h3 {
+      color: #28a745;
+      margin-bottom: 10px;
+    }
+    #contact p {
+      margin-bottom: 10px;
+    }
+    #contact a {
+      color: #007AFF;
+      text-decoration: none;
+    }
+    #contact a:hover {
+      text-decoration: underline;
+    }
+
+    /* Footer */
     footer {
-      background-color: #333;
+      background: #333;
       color: white;
       text-align: center;
       padding: 10px 0;
-      margin-top: 20px;
+      margin-top: 30px;
     }
     footer a {
-      color: #007AFF;
+      color: #28a745;
       text-decoration: none;
+    }
+    footer a:hover {
+      color: #007AFF;
     }
   </style>
 </head>
 <body>
-  <!-- Header -->
+  <!-- Header Section -->
   <header>
-    <h1>Welcome to [Your App Name]</h1>
-    <p>Your trusted solution for [app purpose or tagline]</p>
+    <h1>Gugger WebSite</h1>
+    <p>Your gateway to a healthier and more active lifestyle.</p>
   </header>
 
-  <!-- Navigation -->
+    <!-- Navigation -->
   <nav>
     <a href="#features">Features</a>
+    <a href="#contact">Support</a>
     <a href="#download">Download</a>
     <a href="#privacy">Privacy Policy</a>
-    <a href="#support">Support</a>
   </nav>
 
   <!-- Main Content -->
   <section id="features">
     <h2>Key Features</h2>
     <ul>
-      <li>Feature 1: Brief description of the feature</li>
-      <li>Feature 2: Brief description of the feature</li>
+      <li>Multi-User Support</li>
+      <li>At-Home Training Solution</li>
       <li>Feature 3: Brief description of the feature</li>
     </ul>
   </section>
+  <!-- Contact Section -->
 
-  <section id="download">
-    <h2>Download the App</h2>
-    <p>Available on the App Store. <a href="[App Store Link]" target="_blank">Download here</a>.</p>
+  <section id="contact">
+    <h3>Contact Us</h3>
+    <p>Have questions or need support? We’re here to help!</p>
+    <p>Email: <a href="mailto:guggervip@gmail.com">guggervip@gmail.com</a></p>
+    <p>Phone: <a href="tel:+86 17512082064">+86 17512082064</a></p>
+    <p>Address: Room 2421, Building C2, Wanda Plaza, Kefeng Road, Huangpu District, Guangzhou, Guangdong Province, China</p>
   </section>
-
-  <section id="privacy">
+    <section id="download">
+    <h2>Download the App</h2>
+    <p>Download Link. <a href="[App Store Link]" target="_blank">Download here</a>.</p>
+  </section>
+    <section id="privacy">
     <h2>Privacy Policy</h2>
     <p>We take your privacy seriously. Please read our <a href="[Privacy Policy URL]" target="_blank">privacy policy</a> to understand how we manage your data.</p>
   </section>
 
-  <section id="support">
-    <h2>Support</h2>
-    <p>If you have any questions or need assistance, please contact us at <a href="mailto:support@[yourcompany].com">support@[yourcompany].com</a>.</p>
-  </section>
-
   <!-- Footer -->
   <footer>
-    <p>&copy; [Year] [Your Company Name]. All rights reserved.</p>
-    <p><a href="#privacy">Privacy Policy</a> | <a href="#support">Support</a></p>
+    <p>&copy; [2024-11 ] [gugger]. All rights reserved.</p>
+    <p>
+      <a href="#privacy">Privacy Policy</a> | <a href="#contact">Contact Us</a>
+    </p>
   </footer>
+
+  <!-- Hidden Privacy Policy Section -->
+  <section id="privacy" style="display: none;">
+    <h2>Privacy Policy</h2>
+    <p>We value your privacy. Please visit our <a href="privacy-policy.html">full privacy policy page</a> for more information.</p>
+  </section>
 </body>
 </html>
